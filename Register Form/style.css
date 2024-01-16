@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    align-items: center;
+    background-color: wheat;
+
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    background: linear-gradient(900deg, rgb(54, 54, 54), tomato);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: wheat;
+    letter-spacing: 3px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    overflow: hidden;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+i {
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.pass>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+button {
+    color: tomato;
+    font-weight: 600;
+    padding: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 7px;
+
+}
